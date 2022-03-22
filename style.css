@@ -1,0 +1,183 @@
+ *{
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+ }
+
+ body{
+    font-family: 'Open Sans', sans-serif;
+ }
+ .contenedor{
+     padding: 60px 0;
+     width: 90%;
+     max-width: 1000px;
+     margin: auto;
+     overflow: hidden;
+ }
+
+
+   .titulo{
+      color: #021b79;
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 60px;
+      text-transform: uppercase;
+      text-decoration: none;
+      
+  }
+  .sobre{
+      text-decoration: none;
+      color: black;
+  }
+  .sobre:hover{
+      text-decoration: underline;
+  }
+
+  /*  Header  */
+  header{
+     background-image: url(img/limpieza_hogar.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     height: 7 00px;
+  }
+  nav {
+      text-align: center;
+  }
+
+  nav > a{
+      color: #fff;
+       font-weight: 300;
+       text-decoration: none;   
+       margin-right: 10px;
+       
+  }
+  nav > a:hover{
+     text-decoration: underline;   
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+.wave{ 
+    position: absolute;  
+    bottom: 0;    
+    width: 100%;
+}
+/*  about us  */ 
+
+ .contenedor-sobre-nosotros{
+     display:flex;
+     justify-content: space-evenly;
+ }
+
+
+/*  Clientes  */
+
+
+
+.card .card{
+    background: rgba(0, 110, 255, 0.678);
+    display: flex;
+    width: 46;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.card .card img{
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.card .card > .contenido-texto-card{
+    width: 60%;
+    color: #fff;
+}
+
+.card .card > .contenido-texto-card{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.susana{
+    text-align: start;
+}
+
+.marian {
+    text-align: start;
+}
+
+.contenido-texto-card{
+    text-align: end;
+}
+
+.sec1{
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px rgba(0, 110, 255, 0.678);
+    overflow: auto;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+
+.sec2{
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px rgba(0, 110, 255, 0.678);
+    overflow: auto;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.sec3{
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px rgba(0, 110, 255, 0.678);
+    overflow: auto;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.sec4{
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px rgba(0, 110, 255, 0.678);
+    overflow: auto;
+    border-radius: 20px;
+    display: inline-block;
+}
